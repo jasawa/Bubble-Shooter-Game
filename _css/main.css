@@ -14,6 +14,7 @@ body {
     left: 0;
     top: 0;
     width: 1000px;
+    /*note: height of top_bar is 70px + height of game 620 + height of footer_bar 48 is equal to total page height of 738*/
     height: 70px;
     background-color: #369;
     color: #fff;
@@ -26,6 +27,7 @@ body {
     height: 620px;
     background-color: #fff;
     clip: auto;
+    /*overflow set to hidden so that bubbles in game will never accidently display over top_bar or footer_bar*/
     overflow: hidden;
 }
 #footer_bar{
