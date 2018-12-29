@@ -18,4 +18,21 @@ body {
     background-color: #369;
     color: #fff;
 }
-
+#game {
+    position: absolute;
+    left: 0;
+    top: 70;
+    width: 1000px;
+    height: 620px;
+    background-color: #fff;
+    clip: auto;
+    overflow: hidden;
+}
+#footer_bar{
+    position: absolute;
+    left: 0;
+    top: 690;
+    width: 1000px;
+    height: 48px;
+    background-color: #369;
+}
